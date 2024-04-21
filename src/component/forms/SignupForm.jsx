@@ -29,6 +29,7 @@ const errorMessageStyle={color:'red'}
 // Main component for the signup form
 export const SignupForm = () => {
     // State variables initialization
+    
     const initialFormValues  = { firstName: "", lastName: "", username: "", email: "", password: "" ,userType:"",confirmPassword:""}
     const [formValues, setFormValues] = useState(initialFormValues );
     const [formErrors, setFormErrors] = useState({});
